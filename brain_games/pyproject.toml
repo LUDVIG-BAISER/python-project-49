@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "brain-games"
+version = "0.1.0"
+description = "Hexlet python project"
+authors = ["Evgenii <evgen.ak24@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+prompt = "^0.4.1"
+
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.anus_sobaki:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = 'brain_games.scripts.brain_calc:main'
+brain-gcd = 'brain_games.scripts.brain_gcd:main'
+brain-progression = 'brain_games.scripts.brain_progression:main'
+brain-prime = 'brain_games.scripts.brain_prime:main'
