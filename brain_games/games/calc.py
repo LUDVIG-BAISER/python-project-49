@@ -1,6 +1,6 @@
+import random
 
 OPERATIONS = ['+', '-', '*']
-
 
 def generate_question_and_answer():
     num1 = random.randint(1, 20)
@@ -14,6 +14,6 @@ def generate_question_and_answer():
     elif operation == '*':
         correct_answer = num1 * num2
 
-    question = f"{num1} {operation} {num2}"
+    question = f"Question: {num1} {operation} {num2}"
 
     return question, str(correct_answer)
