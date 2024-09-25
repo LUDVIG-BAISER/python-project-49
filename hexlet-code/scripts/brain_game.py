@@ -1,4 +1,4 @@
-# brain_games/scripts/brain_game.py
+# hexlet-code/scripts/brain_game.py
 from brain_games.cli import welcome_user
 
 def main():
