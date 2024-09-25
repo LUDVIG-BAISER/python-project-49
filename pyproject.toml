@@ -8,7 +8,9 @@ repository = "https://github.com/LUDVIG-BAISER/python-project-49"
 [tool.poetry.dependencies]
 python = "^3.12"
 prompt = "^0.4.1"
-
+packages = [
+    { include = "brain_games" }
+]
 
 
 [tool.poetry.group.dev.dependencies]
