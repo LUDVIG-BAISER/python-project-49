@@ -2,6 +2,7 @@ import random
 
 
 def generate_question_and_answer():
+    print('What number is missing in the progression?')
     start = random.randint(1, 10)
     step = random.randint(1, 5)
     length = 10
@@ -15,3 +16,6 @@ def generate_question_and_answer():
     question = " ".join(map(str, progression))
 
     return question, str(correct_answer)
+
+
+

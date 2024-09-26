@@ -2,6 +2,7 @@ import random
 
 
 def is_even(number):
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     return number % 2 == 0
 
 

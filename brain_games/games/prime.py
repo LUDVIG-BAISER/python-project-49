@@ -2,6 +2,7 @@ import random
 
 
 def is_prime(number):
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     if number < 2:
         return False
     for i in range(2, number):

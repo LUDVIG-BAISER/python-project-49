@@ -3,7 +3,6 @@ from brain_games.games import even
 
 
 def main():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
     play_game(even)
 
 

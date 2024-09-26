@@ -4,6 +4,7 @@ OPERATIONS = ['+', '-', '*']
 
 
 def generate_question_and_answer():
+    print('What is the result of the expression?')
     num1 = random.randint(1, 20)
     num2 = random.randint(1, 20)
     operation = random.choice(OPERATIONS)

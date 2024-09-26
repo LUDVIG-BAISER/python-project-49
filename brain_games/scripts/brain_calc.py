@@ -3,7 +3,6 @@ from brain_games.games import calc
 
 
 def main():
-    print('What is the result of the expression?')
     play_game(calc)
 
 
