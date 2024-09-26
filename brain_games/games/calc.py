@@ -2,6 +2,7 @@ import random
 
 OPERATIONS = ['+', '-', '*']
 
+
 def generate_question_and_answer():
     num1 = random.randint(1, 20)
     num2 = random.randint(1, 20)
